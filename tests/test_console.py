@@ -120,7 +120,7 @@ class test_console(unittest.TestCase):
             Test that create works
         '''
         console = self.create()
-        console.onecmd("create User email=a.adeleke@alustudent.com password=abc")
+        console.onecmd("create User email=a.adeleke@alust.com password=abc")
         self.assertTrue(isinstance(self.capt_out.getvalue(), str))
 
     def test_class_name(self):
